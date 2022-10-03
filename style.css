@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, rgb(134, 134, 134), rgb(0, 0, 132));
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    gap: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .4);
+    padding: 15px;
+    width: 550px;
+    height: 150px;
+}
+
+.clock div{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.clock span.time{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 426px) {
+    .clock span{
+        font-size: 48px;
+    }
+
+    .clock{
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .clock span{
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .clock span{
+        font-size: 28px;
+    }
+
+    .clock{
+        gap: 10px;
+    }
+}
