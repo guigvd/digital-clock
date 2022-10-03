@@ -10,7 +10,7 @@ Study in practice.
 
 # Demonstration
 
-- See online at: https://guigvd.github.io/digital-watch/
+- See online at: https://guigvd.github.io/digital-clock/
 
 ![image](https://user-images.githubusercontent.com/100156111/193655191-bead6ad5-c843-46bd-9cd2-79a1af7b677a.png)
 
