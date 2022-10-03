@@ -1,8 +1,8 @@
-<h1 align="center">Digital Watch</h1> 
+<h1 align="center">Digital Clock</h1> 
 
 - Description:
 
-Project of digital watch where i use the setInterval() method on JavaScript to get the time of system and update on screen.
+Project of digital clock where i use the setInterval() method on JavaScript to get the time of system and update on screen.
 
 - Objective:
 
